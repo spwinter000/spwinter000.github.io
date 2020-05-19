@@ -1,0 +1,124 @@
+.header {
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.body {
+    font-family: sans-serif;
+    background: rgb(99, 99, 248);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+
+.container {
+  width: 80%;
+  max-width: 425px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px -5px rgba(black, .125);
+  text-align: center;
+}
+
+
+.flex-outer {
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/*form{
+    background: white;
+    border-radius: 4px;
+    padding: 32px 24px 24px;
+    box-shadow: 0 5px 10px -5px rgba(black, .125);
+    align-items: center;
+}*/
+
+li:nth-child(3) { 
+  margin-bottom: 20px;
+}
+
+label {
+    margin: 3px;
+    width: 35%;
+    opacity: .80;
+    text-align: justify;
+    display: inline-block;
+}
+
+input, button {
+  appearance: none;
+  border: 0;
+  font-family: inherit;
+  margin: 0;
+  /* padding: 0; */
+}
+
+input {
+    border: 1px solid lightgrey;
+    float: center;
+    width: 10%;
+    border-radius: 2px;
+    box-sizing: border-box;
+    outline: none;
+    /* clear: both; */
+    /* box-shadow:none;
+    -webkit-box-shadow:none; */
+    transition: border .125s ease-out .125s;
+    /* -webkit-transition: border 2s ease-out; */
+}
+
+  input:focus {
+    /* -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9; */
+    border: 1.5px solid #88D5E9;
+  }
+
+button {
+    border: 0;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    display: block;
+    margin: 20px auto;
+    background: orange;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    opacity: 0.8;
+  }
+
+  button:hover {
+    opacity: 1;
+    /* background: #4c2827;
+    border-bottom-color: #111; */
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+
+  #solution{
+    color: red;
+    font-weight: 300;
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  

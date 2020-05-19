@@ -1,0 +1,46 @@
+<!doctype =<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title class="header">Bolus App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bolus.css" />
+</head>
+
+<body class="body">
+        <div class="container">
+        <!--<p class="info">This is where the parameters are set for calculating the recommended bolus amount</p>-->
+                <form action="bolus.js" onclick = "return (validate());">
+                    <h2 class="header">Bolus Calculator</h2>
+                    <ul class="flex-outer">
+                        <li>
+                            <label>Low Threshold:</label> <input id="low_threshold" type="number" value=80 minlength="1" maxlength="3">
+                        </li>
+                        <li>
+                            <label>High Threshold:</label> <input id="high_threshold" type="number" value=120 minlength="1" maxlength="3">
+                        </li>
+                        <li>
+                            <label>Carbohydrates/Unit:</label> <input id="carbs_per_unit" type="number" value=10 minlength="1" maxlength="2">
+                        </li>
+                        <li>
+                            <label>Carbohydrates:</label> <input id="carbs" type="number" min="0" maxlength="3">
+                        </li>
+                        <li>
+                            <label>Blood Sugar:</label> <input id="bloodsugar" type="number" min="25" maxlength="3">
+                        </li>
+                        <li>
+                            <button id="calculate" class="input" type="button" value="submit">Get Bolus</button>
+                        </li>
+                        <li>
+                            <p id="solution"></p>
+                        </li>
+                    </ul>
+                </form>
+        <script src="bolus.js">
+        </script>
+        </div>
+</body>
+
+</html>
