@@ -1,2 +1,2 @@
 # Bolus-Calculator
-Application that simulates an insulin pump bolus wizard.
+Application that simulates an insulin pump bolus interface.
