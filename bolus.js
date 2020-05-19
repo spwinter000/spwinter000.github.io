@@ -17,7 +17,7 @@ function validate(){
     }
     
     if (bloodsugar > 400 && carbs > 0) {
-        document.getElementById('solution').innerHTML = "Blood sugar over 300. Consider bolusing and waiting 15 minutes before eating.";
+        document.getElementById('solution').innerHTML = "Blood sugar over 400. Consider bolusing and waiting 15 minutes before eating.";
     }
     
     if(bloodsugar < 30){
