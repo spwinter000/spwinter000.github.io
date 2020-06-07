@@ -120,5 +120,19 @@ button {
     margin-left: 10px;
     text-align: center;
   }
+
+.social {
+  position: absolute;
+  bottom: 0;
+}
+
+
+img{
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  margin-right: 10px;
+  margin-left: 10px;
+  }
   
   
